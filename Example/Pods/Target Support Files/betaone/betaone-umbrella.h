@@ -10,7 +10,8 @@
 #endif
 #endif
 
-#import <betaone/MyObjCClass.h>
+#import "MyObjCClass.h"
 
 FOUNDATION_EXPORT double betaoneVersionNumber;
 FOUNDATION_EXPORT const unsigned char betaoneVersionString[];
+

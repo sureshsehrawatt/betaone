@@ -3,7 +3,8 @@ use_frameworks!
 platform :ios, '10.0'
 
 target 'betaone_Example' do
-  pod 'betaone', :path => '../'
+  # pod 'betaone', :path => '../'
+  pod 'betaone', :git => 'https://github.com/sureshsehrawatt/betaone.git', :branch => 'main'
 
   target 'betaone_Tests' do
     inherit! :search_paths

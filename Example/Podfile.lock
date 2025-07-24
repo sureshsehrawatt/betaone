@@ -2,15 +2,21 @@ PODS:
   - betaone (0.1.0)
 
 DEPENDENCIES:
-  - betaone (from `../`)
+  - betaone (from `https://github.com/sureshsehrawatt/betaone.git`, branch `main`)
 
 EXTERNAL SOURCES:
   betaone:
-    :path: "../"
+    :branch: main
+    :git: https://github.com/sureshsehrawatt/betaone.git
+
+CHECKOUT OPTIONS:
+  betaone:
+    :commit: b330b04d0097564e6c5c69e0201d6e93f7f2d989
+    :git: https://github.com/sureshsehrawatt/betaone.git
 
 SPEC CHECKSUMS:
   betaone: 421a922efb21ab15c10ffed601e49806769c64ec
 
-PODFILE CHECKSUM: 8ba9aca1ddd5cb1cc8ee4c0fe9bd7ac445de6ff9
+PODFILE CHECKSUM: 4b0de35dd408519046dfdc624facfc9ab87963c6
 
 COCOAPODS: 1.16.2

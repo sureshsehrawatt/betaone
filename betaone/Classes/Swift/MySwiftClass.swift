@@ -2,13 +2,17 @@
 
 import Foundation
 
-@objc public class MySwiftClass: NSObject {
+public class MySwiftClass: NSObject {
 
-    @objc public func sayHelloFromSwift() -> String {
+    public func sayHelloFromSwift() -> String {
         return "Hello from Swift!"
     }
 
-    @objc public static func staticMessage() -> String {
+    public static func staticMessage() -> String {
         return "Static message from Swift"
+    }
+
+    public static func init() {
+        print("MySwiftClass initialized")
     }
 }
