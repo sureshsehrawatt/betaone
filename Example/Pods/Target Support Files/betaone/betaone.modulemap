@@ -1,0 +1,6 @@
+framework module betaone {
+  umbrella header "betaone-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - betaone (0.1.0)
+
+DEPENDENCIES:
+  - betaone (from `../`)
+
+EXTERNAL SOURCES:
+  betaone:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  betaone: 421a922efb21ab15c10ffed601e49806769c64ec
+
+PODFILE CHECKSUM: 8ba9aca1ddd5cb1cc8ee4c0fe9bd7ac445de6ff9
+
+COCOAPODS: 1.16.2

@@ -1,0 +1,837 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35F2711048046D944CEA9340292B0B79 /* MySwiftClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7EFBEE676C098375165978EE4E315F /* MySwiftClass.swift */; };
+		3E2F98767DFC000BF8785A53A2FFC7E5 /* Pods-betaone_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E35074484EFD1E5498D7ED35F49BE68 /* Pods-betaone_Tests-dummy.m */; };
+		5594A9F860010AC34041A5C28399DFC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		7C8A20A4A01B9494804A23CDF25717BB /* Pods-betaone_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6A824CFBA39CF74918C170B66845AE /* Pods-betaone_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C7E6C6D3EB553F54A458A76F8EA975C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2486D4DBD70CCBB2D87D70F832C6A597 /* ReplaceMe.swift */; };
+		90C1B41D23407D0CF3FA33B4E005F036 /* MyObjCClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C44FE561C914DBB692C433D5C482098 /* MyObjCClass.m */; };
+		B26544A7771D62CDA070FE370EB3B63F /* betaone-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7526728B1619B8BE2A2DDF31BEDBB22 /* betaone-dummy.m */; };
+		B3E46387CA788BAD795628FDFBB8266F /* Pods-betaone_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6227C28EC2F466B68AB5C592986244E8 /* Pods-betaone_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B45E5F395164DF6DA2AABD1D5380BEAB /* Pods-betaone_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD98962FD6B33BCABDAD18F05F73913 /* Pods-betaone_Example-dummy.m */; };
+		B89E7585ACBB1F727BBD4547BE11F783 /* betaone-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C9E22B8CDB1D433F42538A6EB852AE8 /* betaone-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C988B44F790BCF2E904C28B4043542F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		D0A0B25A0F5A255E7519DF6CA39882EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		D5DBD5BD603E0DFE6C2B5CFAB7F672A6 /* MyObjCClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 981FCDA6DA136576914DF13642CB02E7 /* MyObjCClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB160C0450238641415B72632F7B6995 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B4F7C5F5B50BDFEED6F4A0405920B32;
+			remoteInfo = "Pods-betaone_Example";
+		};
+		D75F11A43FC5C9B0D54DB3314A15E255 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3835365BBBD3BE81CDF830310AD18D33;
+			remoteInfo = betaone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06480DB175E06DDF97571BA0D123A67E /* betaone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = betaone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		087AA95D1F9C8CB9478D2A591FFB15D9 /* Pods-betaone_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-betaone_Example.modulemap"; sourceTree = "<group>"; };
+		0C7EFBEE676C098375165978EE4E315F /* MySwiftClass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MySwiftClass.swift; sourceTree = "<group>"; };
+		2486D4DBD70CCBB2D87D70F832C6A597 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = betaone/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		278D84D2DAC0731C5A12C15A512F2B90 /* Pods-betaone_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-betaone_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2C44FE561C914DBB692C433D5C482098 /* MyObjCClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MyObjCClass.m; sourceTree = "<group>"; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		486E3AD697B68A9DDE9B34ECFC3E1042 /* Pods-betaone_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-betaone_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4E35074484EFD1E5498D7ED35F49BE68 /* Pods-betaone_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-betaone_Tests-dummy.m"; sourceTree = "<group>"; };
+		5B3536FBAADFED5EBE7FD0A9185FAA8A /* betaone-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "betaone-Info.plist"; sourceTree = "<group>"; };
+		6227C28EC2F466B68AB5C592986244E8 /* Pods-betaone_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-betaone_Example-umbrella.h"; sourceTree = "<group>"; };
+		6B6653124F7EAB80E94F042640A23AE4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		6CD98962FD6B33BCABDAD18F05F73913 /* Pods-betaone_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-betaone_Example-dummy.m"; sourceTree = "<group>"; };
+		71D2CCF2A0491589C35CAEA7B1587B4A /* betaone.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = betaone.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7D2A105D39458711C3082368199AF3CA /* betaone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = betaone.debug.xcconfig; sourceTree = "<group>"; };
+		8A1D12E76F88DF04FF56860B1E79AE67 /* Pods-betaone_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-betaone_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8C6A824CFBA39CF74918C170B66845AE /* Pods-betaone_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-betaone_Tests-umbrella.h"; sourceTree = "<group>"; };
+		946E7B43ECFE7E0E8839533070964A2A /* Pods-betaone_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-betaone_Example-frameworks.sh"; sourceTree = "<group>"; };
+		981FCDA6DA136576914DF13642CB02E7 /* MyObjCClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MyObjCClass.h; sourceTree = "<group>"; };
+		9AD8E7B8B92AA5B298FB1EF374F34234 /* betaone-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "betaone-prefix.pch"; sourceTree = "<group>"; };
+		9B5507CA40B258DFDDF1FD07EC5F7C98 /* Pods-betaone_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-betaone_Tests.modulemap"; sourceTree = "<group>"; };
+		9C9E22B8CDB1D433F42538A6EB852AE8 /* betaone-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "betaone-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A09812FD41ECC8FB0CF597A9168E9142 /* betaone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = betaone.release.xcconfig; sourceTree = "<group>"; };
+		AB9F25EE0FEE100D6F107104F4BD746B /* Pods-betaone_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-betaone_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B3B69D79879DF6045BFB912FD02603C6 /* Pods-betaone_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-betaone_Example-Info.plist"; sourceTree = "<group>"; };
+		BCEC565929A2C2C307D739235527D194 /* Pods_betaone_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_betaone_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF091DE80044DE72C02EFA34733528D0 /* Pods-betaone_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-betaone_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C09DCF6424F9033DB738414520ED3F84 /* Pods-betaone_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-betaone_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C7526728B1619B8BE2A2DDF31BEDBB22 /* betaone-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "betaone-dummy.m"; sourceTree = "<group>"; };
+		CEB90F8A330259D962C5D793084207A2 /* Pods-betaone_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-betaone_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		CFBC5D9EF6C3EF583F5659CBE4CAD096 /* Pods-betaone_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-betaone_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D4415C5B4AA46B76B6BF5617BA6469F6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E52076FD53320C6F5397AC6DFD8D2B1C /* betaone.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = betaone.modulemap; sourceTree = "<group>"; };
+		EF00A2D876335A50FB35EACF66AC16C9 /* Pods-betaone_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-betaone_Tests-Info.plist"; sourceTree = "<group>"; };
+		F15B700D2419D26B0062611421C81624 /* Pods_betaone_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_betaone_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12A1CE39BA8A4894ABE6DFAD9D20815E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5594A9F860010AC34041A5C28399DFC8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41B4162054E9C2EB2354275291FF9682 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C988B44F790BCF2E904C28B4043542F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99ABEEBF61C4AE8A0887B2EF36A43DD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0A0B25A0F5A255E7519DF6CA39882EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20DCCE157602EFD8DC7B1B1B47512166 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E52076FD53320C6F5397AC6DFD8D2B1C /* betaone.modulemap */,
+				C7526728B1619B8BE2A2DDF31BEDBB22 /* betaone-dummy.m */,
+				5B3536FBAADFED5EBE7FD0A9185FAA8A /* betaone-Info.plist */,
+				9AD8E7B8B92AA5B298FB1EF374F34234 /* betaone-prefix.pch */,
+				9C9E22B8CDB1D433F42538A6EB852AE8 /* betaone-umbrella.h */,
+				7D2A105D39458711C3082368199AF3CA /* betaone.debug.xcconfig */,
+				A09812FD41ECC8FB0CF597A9168E9142 /* betaone.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/betaone";
+			sourceTree = "<group>";
+		};
+		266EBB568DEA827C8380D8B9C088B94E /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				0C7EFBEE676C098375165978EE4E315F /* MySwiftClass.swift */,
+			);
+			name = Swift;
+			path = betaone/Classes/Swift;
+			sourceTree = "<group>";
+		};
+		3C673B687A11A12965C3CAE5A1E610CD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				71D2CCF2A0491589C35CAEA7B1587B4A /* betaone.podspec */,
+				6B6653124F7EAB80E94F042640A23AE4 /* LICENSE */,
+				D4415C5B4AA46B76B6BF5617BA6469F6 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4181523A0334938935CCE18B4ED5B187 /* Pods-betaone_Example */ = {
+			isa = PBXGroup;
+			children = (
+				087AA95D1F9C8CB9478D2A591FFB15D9 /* Pods-betaone_Example.modulemap */,
+				CFBC5D9EF6C3EF583F5659CBE4CAD096 /* Pods-betaone_Example-acknowledgements.markdown */,
+				8A1D12E76F88DF04FF56860B1E79AE67 /* Pods-betaone_Example-acknowledgements.plist */,
+				6CD98962FD6B33BCABDAD18F05F73913 /* Pods-betaone_Example-dummy.m */,
+				946E7B43ECFE7E0E8839533070964A2A /* Pods-betaone_Example-frameworks.sh */,
+				B3B69D79879DF6045BFB912FD02603C6 /* Pods-betaone_Example-Info.plist */,
+				6227C28EC2F466B68AB5C592986244E8 /* Pods-betaone_Example-umbrella.h */,
+				CEB90F8A330259D962C5D793084207A2 /* Pods-betaone_Example.debug.xcconfig */,
+				486E3AD697B68A9DDE9B34ECFC3E1042 /* Pods-betaone_Example.release.xcconfig */,
+			);
+			name = "Pods-betaone_Example";
+			path = "Target Support Files/Pods-betaone_Example";
+			sourceTree = "<group>";
+		};
+		4A0881735A8E23EF55A39392DD6FCDA2 /* Pods-betaone_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9B5507CA40B258DFDDF1FD07EC5F7C98 /* Pods-betaone_Tests.modulemap */,
+				AB9F25EE0FEE100D6F107104F4BD746B /* Pods-betaone_Tests-acknowledgements.markdown */,
+				278D84D2DAC0731C5A12C15A512F2B90 /* Pods-betaone_Tests-acknowledgements.plist */,
+				4E35074484EFD1E5498D7ED35F49BE68 /* Pods-betaone_Tests-dummy.m */,
+				EF00A2D876335A50FB35EACF66AC16C9 /* Pods-betaone_Tests-Info.plist */,
+				8C6A824CFBA39CF74918C170B66845AE /* Pods-betaone_Tests-umbrella.h */,
+				BF091DE80044DE72C02EFA34733528D0 /* Pods-betaone_Tests.debug.xcconfig */,
+				C09DCF6424F9033DB738414520ED3F84 /* Pods-betaone_Tests.release.xcconfig */,
+			);
+			name = "Pods-betaone_Tests";
+			path = "Target Support Files/Pods-betaone_Tests";
+			sourceTree = "<group>";
+		};
+		54C22051976A0ACB70B02FD7B5DA371D /* betaone */ = {
+			isa = PBXGroup;
+			children = (
+				2486D4DBD70CCBB2D87D70F832C6A597 /* ReplaceMe.swift */,
+				600B339A19C57DD90AE07798F3F6F57C /* ObjC */,
+				3C673B687A11A12965C3CAE5A1E610CD /* Pod */,
+				20DCCE157602EFD8DC7B1B1B47512166 /* Support Files */,
+				266EBB568DEA827C8380D8B9C088B94E /* Swift */,
+			);
+			name = betaone;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5A6F0D858DD2BC18D8010BCAAD799C50 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54C22051976A0ACB70B02FD7B5DA371D /* betaone */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5A8EF13DA81C027AA858358E58BEACD8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4181523A0334938935CCE18B4ED5B187 /* Pods-betaone_Example */,
+				4A0881735A8E23EF55A39392DD6FCDA2 /* Pods-betaone_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5FC123E98CE4C219D34820C33D688FA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06480DB175E06DDF97571BA0D123A67E /* betaone.framework */,
+				F15B700D2419D26B0062611421C81624 /* Pods_betaone_Example.framework */,
+				BCEC565929A2C2C307D739235527D194 /* Pods_betaone_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		600B339A19C57DD90AE07798F3F6F57C /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				981FCDA6DA136576914DF13642CB02E7 /* MyObjCClass.h */,
+				2C44FE561C914DBB692C433D5C482098 /* MyObjCClass.m */,
+			);
+			name = ObjC;
+			path = betaone/Classes/ObjC;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				5A6F0D858DD2BC18D8010BCAAD799C50 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5FC123E98CE4C219D34820C33D688FA7 /* Products */,
+				5A8EF13DA81C027AA858358E58BEACD8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		46F36C598A091FF7490182E81C1D6D20 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B89E7585ACBB1F727BBD4547BE11F783 /* betaone-umbrella.h in Headers */,
+				D5DBD5BD603E0DFE6C2B5CFAB7F672A6 /* MyObjCClass.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F65BB5B59C907B7D73A03D948C81CEF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C8A20A4A01B9494804A23CDF25717BB /* Pods-betaone_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		863BC5D735C6181C058312CB6EA21A46 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3E46387CA788BAD795628FDFBB8266F /* Pods-betaone_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2B4F7C5F5B50BDFEED6F4A0405920B32 /* Pods-betaone_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4935E02C1C46DF4F9D55D1377D4549CD /* Build configuration list for PBXNativeTarget "Pods-betaone_Example" */;
+			buildPhases = (
+				863BC5D735C6181C058312CB6EA21A46 /* Headers */,
+				091760610FA96D5CFAFA2867CA4568C7 /* Sources */,
+				41B4162054E9C2EB2354275291FF9682 /* Frameworks */,
+				A6F7165288FC73C03B454F7A3D36D052 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A657D86CB883D77CD5D53072F9ED120 /* PBXTargetDependency */,
+			);
+			name = "Pods-betaone_Example";
+			productName = Pods_betaone_Example;
+			productReference = F15B700D2419D26B0062611421C81624 /* Pods_betaone_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3835365BBBD3BE81CDF830310AD18D33 /* betaone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C6848C96CFD7E8F7E294E783067FE56 /* Build configuration list for PBXNativeTarget "betaone" */;
+			buildPhases = (
+				46F36C598A091FF7490182E81C1D6D20 /* Headers */,
+				1E294637BD6E78064FC4D83AF52709EB /* Sources */,
+				12A1CE39BA8A4894ABE6DFAD9D20815E /* Frameworks */,
+				39F85E421B738B99E75B3BCC41EAA77E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = betaone;
+			productName = betaone;
+			productReference = 06480DB175E06DDF97571BA0D123A67E /* betaone.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5EEEFA5C53AB0DDB3F68810169C09E99 /* Pods-betaone_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF310032756563B7C7B30E0E908725D9 /* Build configuration list for PBXNativeTarget "Pods-betaone_Tests" */;
+			buildPhases = (
+				7F65BB5B59C907B7D73A03D948C81CEF /* Headers */,
+				C5036BEC40AB1DC40C3BD524A59D437B /* Sources */,
+				99ABEEBF61C4AE8A0887B2EF36A43DD9 /* Frameworks */,
+				3EFA55B4C184CAF62095C6F6F6516140 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51F45A95ED74117F2ECE289ADF5B319D /* PBXTargetDependency */,
+			);
+			name = "Pods-betaone_Tests";
+			productName = Pods_betaone_Tests;
+			productReference = BCEC565929A2C2C307D739235527D194 /* Pods_betaone_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1620;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5FC123E98CE4C219D34820C33D688FA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3835365BBBD3BE81CDF830310AD18D33 /* betaone */,
+				2B4F7C5F5B50BDFEED6F4A0405920B32 /* Pods-betaone_Example */,
+				5EEEFA5C53AB0DDB3F68810169C09E99 /* Pods-betaone_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39F85E421B738B99E75B3BCC41EAA77E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EFA55B4C184CAF62095C6F6F6516140 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6F7165288FC73C03B454F7A3D36D052 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		091760610FA96D5CFAFA2867CA4568C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B45E5F395164DF6DA2AABD1D5380BEAB /* Pods-betaone_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E294637BD6E78064FC4D83AF52709EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B26544A7771D62CDA070FE370EB3B63F /* betaone-dummy.m in Sources */,
+				90C1B41D23407D0CF3FA33B4E005F036 /* MyObjCClass.m in Sources */,
+				35F2711048046D944CEA9340292B0B79 /* MySwiftClass.swift in Sources */,
+				8C7E6C6D3EB553F54A458A76F8EA975C /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5036BEC40AB1DC40C3BD524A59D437B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E2F98767DFC000BF8785A53A2FFC7E5 /* Pods-betaone_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A657D86CB883D77CD5D53072F9ED120 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = betaone;
+			target = 3835365BBBD3BE81CDF830310AD18D33 /* betaone */;
+			targetProxy = D75F11A43FC5C9B0D54DB3314A15E255 /* PBXContainerItemProxy */;
+		};
+		51F45A95ED74117F2ECE289ADF5B319D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-betaone_Example";
+			target = 2B4F7C5F5B50BDFEED6F4A0405920B32 /* Pods-betaone_Example */;
+			targetProxy = CB160C0450238641415B72632F7B6995 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03F9B4F803B635676EC9BC2EB5C3DEBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEB90F8A330259D962C5D793084207A2 /* Pods-betaone_Example.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-betaone_Example/Pods-betaone_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-betaone_Example/Pods-betaone_Example.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		738734A174B3E4A915A4F3AC9F30A43A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D2A105D39458711C3082368199AF3CA /* betaone.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/betaone/betaone-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/betaone/betaone-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/betaone/betaone.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_MODULE_NAME = betaone;
+				PRODUCT_NAME = betaone;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8548D10736213B4BEB5979C488F94F7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF091DE80044DE72C02EFA34733528D0 /* Pods-betaone_Tests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-betaone_Tests/Pods-betaone_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-betaone_Tests/Pods-betaone_Tests.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DA16CEA0A8AC09C19E303A431053677 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 486E3AD697B68A9DDE9B34ECFC3E1042 /* Pods-betaone_Example.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-betaone_Example/Pods-betaone_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-betaone_Example/Pods-betaone_Example.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		99AB09CCD626637152E58C9BD69006FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C09DCF6424F9033DB738414520ED3F84 /* Pods-betaone_Tests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-betaone_Tests/Pods-betaone_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-betaone_Tests/Pods-betaone_Tests.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F88561BF433FEC4D13CD30C46FAF819F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A09812FD41ECC8FB0CF597A9168E9142 /* betaone.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/betaone/betaone-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/betaone/betaone-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/betaone/betaone.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				PRODUCT_MODULE_NAME = betaone;
+				PRODUCT_NAME = betaone;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4935E02C1C46DF4F9D55D1377D4549CD /* Build configuration list for PBXNativeTarget "Pods-betaone_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F9B4F803B635676EC9BC2EB5C3DEBB /* Debug */,
+				8DA16CEA0A8AC09C19E303A431053677 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C6848C96CFD7E8F7E294E783067FE56 /* Build configuration list for PBXNativeTarget "betaone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				738734A174B3E4A915A4F3AC9F30A43A /* Debug */,
+				F88561BF433FEC4D13CD30C46FAF819F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF310032756563B7C7B30E0E908725D9 /* Build configuration list for PBXNativeTarget "Pods-betaone_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8548D10736213B4BEB5979C488F94F7E /* Debug */,
+				99AB09CCD626637152E58C9BD69006FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
