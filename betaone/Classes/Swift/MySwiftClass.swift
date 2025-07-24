@@ -12,7 +12,7 @@ public class MySwiftClass: NSObject {
         return "Static message from Swift"
     }
 
-    public static func init() {
+    public static func initMethod() {
         print("MySwiftClass initialized")
     }
 }
