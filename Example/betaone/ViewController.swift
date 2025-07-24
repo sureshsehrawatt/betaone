@@ -16,10 +16,14 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         print("In ViewController viewDidLoad method!")
         
-        var str1 = MyObjCClass.staticMessage()
-        var str2 = MySwiftClass.staticMessage()
-        print(str1)
+        let str1 = MyObjCClass.staticMessage()
+        let str2 = MySwiftClass.staticMessage()
+        print(str1 as Any)
         print(str2)
+        
+        let str3 = MySwiftClass.init()
+        print(str3)
+        
     }
 
     override func didReceiveMemoryWarning() {
